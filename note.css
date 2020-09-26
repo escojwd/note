@@ -1,41 +1,71 @@
-body {
-    width: 90%;
-    margin: 50px auto;
-    border: 1px solid grey;
-    padding: 20px 0px 20px;
-    height: 650px;
+.note-wrapper {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid grey;
+  padding: 20px 0px 20px;
+  height: 650px;
 }
 
 .note-name {
-    display: inline-block;
-    width: 31%;
-    vertical-align: top;
-    border-right: 1px solid grey;
-    height: 665px;
+  display: inline-block;
+  width: 31%;
+  vertical-align: top;
+  border-right: 1px solid grey;
+  height: 665px;
 }
 
-.note-name input {
-    margin: 12px 25px;
+.search {
+  text-align: center;
 }
 
 .writing-place {
-    background: url(./note-back.jpg);
-    display: inline-block;
-    width: calc(100% - 31% - 13px);
-    background-size: contain;
-    height: 665px;
+  background: url(./pics/note-back.jpg);
+  display: inline-block;
+  width: calc(100% - 32% - 13px);
+  background-size: cover;
+  height: 665px;
+  position: relative;
 }
 
 .note-head {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 125px;
 }
 
 .add-note {
-    background: url(./plus-icon.jpg);
-    width: 30px;
-    height: 30px;
-    background-size: contain;
+  background: url(./pics/plus-pic.jpg);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  border: none;
+}
+
+#title {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#delete {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-weight: 900;
+}
+
+.note-text-place {
+  height: 540px;
+}
+
+#note-text {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 150px;
+  left: 10%;
+  resize: none;
+  line-height: 43px;
+  width: 80%;
+  height: 540px;
 }
