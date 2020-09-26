@@ -1,0 +1,41 @@
+body {
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid grey;
+    padding: 20px 0px 20px;
+    height: 650px;
+}
+
+.note-name {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    border-right: 1px solid grey;
+    height: 665px;
+}
+
+.note-name input {
+    margin: 12px 25px;
+}
+
+.writing-place {
+    background: url(./note-back.jpg);
+    display: inline-block;
+    width: calc(100% - 31% - 13px);
+    background-size: contain;
+    height: 665px;
+}
+
+.note-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.add-note {
+    background: url(./plus-icon.jpg);
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
