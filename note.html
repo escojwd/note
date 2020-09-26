@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="note.css">
-    
-</head>
-<body>
-    <div class="note-name">
-        <input type="text" placeholder="Search note...">
-    </div>
-    <div class="writing-place">
-        <div class="note-head">
-                <button class="add-note"></button>
-                <div>
-                    <p>25 Sep. 5:18 2020</p>
-                    <p id="title">hbjsabhjadb</p>
-                </div>
-                <button id="delete">Delete</button>
-
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="note.css" />
+  </head>
+  <body>
+    <div class="note-wrapper">
+      <div class="note-name">
+        <div class="search">
+          <input type="text" placeholder="Search note..." />
         </div>
-        <div></div>
+      </div>
+      <div class="writing-place">
+        <div class="note-head">
+          <button class="add-note"></button>
+          <div>
+            <p>25 Sep. 5:18 2020</p>
+            <p id="title">hbjsabhjadb</p>
+          </div>
+          <button id="delete">Delete</button>
+        </div>
+        <div class="note-text-place">
+          <textarea id="note-text">aasdasdasdasdasda567890</textarea>
+        </div>
+      </div>
+      <script src="note.js"></script>
     </div>
-    <script src="note.js"></script>
-</body>
+  </body>
 </html>
