@@ -1,71 +1,95 @@
 .note-wrapper {
-  width: 50%;
-  margin: 50px auto;
-  border: 1px solid grey;
-  padding: 20px 0px 20px;
-  height: 650px;
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid grey;
+    padding: 0 0px 20px;
+    height: 650px;
 }
 
+.note-title {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 15px 0;
+    font-size: x-large;
+}
+  
 .note-name {
-  display: inline-block;
-  width: 31%;
-  vertical-align: top;
-  border-right: 1px solid grey;
-  height: 665px;
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    border-right: 1px solid grey;
+    height: 614px;
+}
+  
+.search {
+    text-align: center;
+    margin: 25px 0;
+}
+  
+.all-notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 200px;
+    margin: 50px auto 0;
+    line-height: 30px;
 }
 
-.search {
-  text-align: center;
+.add-note p {
+    width: 200px;
 }
 
 .writing-place {
-  background: url(./pics/note-back.jpg);
-  display: inline-block;
-  width: calc(100% - 32% - 13px);
-  background-size: cover;
-  height: 665px;
-  position: relative;
+    display: inline-block;
+    width: calc(100% - 32% - 13px);
+    background-size: cover;
+    height: 645px;
+    position: relative;
+    margin: 25px 0 0 0;
 }
-
+  
 .note-head {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
 }
 
-.add-note {
-  background: url(./pics/plus-pic.jpg);
-  width: 30px;
-  height: 30px;
-  background-size: contain;
-  border: none;
+.add-note button {
+    background-color: transparent;
+    border: none;
+}
+
+.add-note button svg {
+    transform: rotate(45deg);
+    background-color: transparent;
 }
 
 #title {
-  text-align: center;
-  margin-top: 25px;
+    text-align: center;
+    margin-top: 25px;
 }
-
+  
 #delete {
-  background-color: transparent;
-  color: black;
-  border: none;
-  font-weight: 900;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-weight: 900;
 }
-
+  
 .note-text-place {
-  height: 540px;
+    height: 465px;
 }
-
+  
 #note-text {
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  top: 150px;
-  left: 10%;
-  resize: none;
-  line-height: 43px;
-  width: 80%;
-  height: 540px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 8%;
+    resize: none;
+    line-height: 43px;
+    width: 85%;
+    height: 430px;
 }
