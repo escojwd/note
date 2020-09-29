@@ -52,7 +52,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 125px;
+    height: 60px;
+}
+
+.note-head .trash {
+    background-image: url(./barca.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.trash:hover, .trash:focus {
+  transform: scale(5);
+}
+
+.note-head button {
+    background: none;
+    border: none;
+}
+
+.note-head button svg {
+    transform: rotate(45deg);
 }
 
 .add-note button {
@@ -79,16 +99,26 @@
   
 .note-text-place {
     height: 465px;
+    background-image: url(./note-paper.jpg);
+    background-size: cover;
+    background-position: 0 -90px;
+    background-repeat: no-repeat;
 }
   
 #note-text {
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 150px;
+    top: 66px;
     left: 8%;
     resize: none;
-    line-height: 43px;
+    line-height: 31px;
     width: 85%;
     height: 430px;
+}
+
+.save {
+    position: absolute;
+    bottom: 180px;
+    right: 0;
 }
