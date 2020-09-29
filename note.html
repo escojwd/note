@@ -1,64 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="note.css" />
-  </head>
-  <body>
-    <div class="note-wrapper">
-        <div class="note-title">
-            <p>my notes</p>
-        </div>
-      <div class="note-name">
-        <div class="search">
-          <input type="text" placeholder="Search note..." />
-        </div>
-        <div class="all-notes">
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-            <p>sad12</p>
-        </div>
-      </div>
-      <div class="writing-place">
-        <div class="note-head">
-            <div class="add-note">
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" 
-                        width="15" height="15" viewBox="0 0 50 50" overflow="visible"
-                        stroke="blue" stroke-width="10" stroke-linecap="round">
-                        <line x2="50" y2="50" />
-                        <line x1="50" y2="50" />
-                     </svg>
-                </button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="note.css" />
+    </head>
+    <body>
+        <div class="note-wrapper">
+            <div class="note-title">
+                <p>my notes</p>
             </div>
-          <div>
-            <p>25 Sep. 5:18 2020</p>
-            <p id="title">hbjsabhjadb</p>
-          </div>
-          <button id="delete">Delete</button>
+            <div class="note-name">
+                <div class="search">
+                    <input type="text" placeholder="Search note..." />
+                </div>
+                <div class="all-notes">
+                    <p>title p</p>
+                    <p>time p</p>
+                </div>
+            </div>
+            <div class="writing-place">
+                <div class="note-head">
+                    <button class="add-buttone">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="15" height="15" viewBox="0 0 50 50" overflow="visible"
+                            stroke="blue" stroke-width="10" stroke-linecap="round">
+                            <line x2="50" y2="50" />
+                            <line x1="50" y2="50" />
+                        </svg>
+                    </button>
+                    <p>25 Sep. 5:18 2020</p>
+                    <button id="delete">Delete</button>
+                </div>
+                <div class="note-text-place">
+                    <p id="title">hbjsabhjadb</p>
+                    <textarea id="note-text">aasdasdasdasdasda567890</textarea>
+                </div>
+            </div>
         </div>
-        <div class="note-text-place">
-          <textarea id="note-text">aasdasdasdasdasda567890</textarea>
-        </div>
-      </div>
-      <script src="note.js"></script>
-    </div>
+    <script src="note.js"></script>
   </body>
 </html>
