@@ -63,7 +63,7 @@
 }
 
 .trash:hover, .trash:focus {
-  transform: scale(5);
+  transform: scale(2);
 }
 
 .note-head button {
